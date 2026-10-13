@@ -1,5 +1,9 @@
 # Rovira AI Workforce — Showcase
 
+**English** · [اقرأ بالعربية](README.ar.md)
+
+![Rovira AI Agents — an AI workforce you control from your phone](docs/screenshots/cover.png)
+
 > A multi-agent AI system that runs the day-to-day operations of a small software studio
 > (finding freelance work, producing social content, and answering customers on WhatsApp),
 > with a **human-in-the-loop approval gate** on every action that touches the outside world.
@@ -96,22 +100,36 @@ flowchart LR
 
 ## 📸 Screenshots
 
-_Coming soon._
+> The interface is in Arabic: the system is built for an Arabic-speaking market.
 
-<!--
-![Telegram approval flow](docs/screenshots/telegram-approval.png)
-![Saad answering on WhatsApp](docs/screenshots/whatsapp-saad.png)
-![Generated Instagram post](docs/screenshots/instagram-post.png)
--->
+**How it works:** a message on Telegram → the Master Agent routes it → specialised agents draft → one-tap approval → publish and audit log.
+
+![How the AI agents system works](docs/screenshots/how-it-works.png)
+
+**Agent workflow:** triggers, routing, approval branch (approve → publish / reject → archive), and the audit log.
+
+![Agents workflow diagram](docs/screenshots/agents-workflow.png)
+
+**Telegram in action:**
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/telegram-linkedin-draft.jpg" width="300" alt="Telegram: a LinkedIn draft waiting for approval"></td>
+    <td align="center"><img src="docs/screenshots/telegram-company-profile.jpg" width="300" alt="Telegram: updating the company profile in plain language"></td>
+  </tr>
+  <tr>
+    <td align="center">A LinkedIn draft waiting for approval</td>
+    <td align="center">Updating the company knowledge in plain language</td>
+  </tr>
+</table>
 
 ---
 
 ## 📈 Impact
 
-- ⏱️ **Time saved:** routine search, drafting, and first-line support move from manual work to a review-and-approve workflow (`<hours/week>`)
 - 🌙 **24/7 first response** to customers on WhatsApp, with no risk of the bot inventing prices or commitments
 - 🎯 **Focused attention:** only strong freelance matches and hot leads reach the owner
-- 🚀 **Reliable delivery:** 40+ automated production deployments, ~25–40 s each
+- 🚀 **Fast, automated delivery:** every push to `main` deploys itself; median deploy time ~26 s (from GitHub Actions run history, October 2026)
 
 ---
 
