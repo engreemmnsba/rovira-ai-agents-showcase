@@ -8,7 +8,12 @@
 > (finding freelance work, producing social content, and answering customers on WhatsApp),
 > with a **human-in-the-loop approval gate** on every action that touches the outside world.
 
-> ℹ️ This repository is a public showcase. The production source code is private.
+> ℹ️ This repository is a public showcase. It contains the core source code (agents, approval gate,
+> integrations). Deployment configuration, credentials, and private business data are not included,
+> so the code does not run as-is without its own `.env` and Firebase project.
+>
+> © Reem Mansour. All rights reserved. The code is shared for viewing only. It may not be used,
+> copied, modified, or redistributed without written permission.
 
 ---
 
